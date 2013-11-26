@@ -1,4 +1,4 @@
 spidriver
 =========
 
-SPI Switch Driver PCB
+SPI 8 Ch Switch Driver PCB
