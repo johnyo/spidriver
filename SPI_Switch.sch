@@ -3992,23 +3992,23 @@ High-power, low thermal resistance package.</description>
 <text x="220.98" y="190.5" size="1.778" layer="91">Bypassable Line Driver</text>
 <text x="342.9" y="172.72" size="1.778" layer="91">Output RJ45</text>
 <text x="63.5" y="317.5" size="1.778" layer="91">Bypass caps for TLE7230G VSO/VDD</text>
-<wire x1="20.32" y1="2.54" x2="325.12" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="325.12" y1="2.54" x2="416.56" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="416.56" y1="2.54" x2="416.56" y2="17.78" width="0.1524" layer="94"/>
-<wire x1="416.56" y1="17.78" x2="416.56" y2="30.48" width="0.1524" layer="94"/>
-<wire x1="416.56" y1="30.48" x2="416.56" y2="45.72" width="0.1524" layer="94"/>
-<wire x1="416.56" y1="45.72" x2="416.56" y2="396.24" width="0.1524" layer="94"/>
-<wire x1="416.56" y1="396.24" x2="20.32" y2="396.24" width="0.1524" layer="94"/>
-<wire x1="20.32" y1="396.24" x2="20.32" y2="2.54" width="0.1524" layer="94"/>
-<text x="337.82" y="33.02" size="5.08" layer="94">SPI Switch Board</text>
-<text x="363.22" y="20.32" size="5.08" layer="94">rev1</text>
-<text x="350.52" y="7.62" size="5.08" layer="94">11/26/2013</text>
-<wire x1="416.56" y1="17.78" x2="325.12" y2="17.78" width="0.1524" layer="94"/>
-<wire x1="325.12" y1="2.54" x2="325.12" y2="17.78" width="0.1524" layer="94"/>
-<wire x1="325.12" y1="17.78" x2="325.12" y2="30.48" width="0.1524" layer="94"/>
-<wire x1="325.12" y1="30.48" x2="325.12" y2="45.72" width="0.1524" layer="94"/>
-<wire x1="325.12" y1="45.72" x2="416.56" y2="45.72" width="0.1524" layer="94"/>
-<wire x1="325.12" y1="30.48" x2="416.56" y2="30.48" width="0.1524" layer="94"/>
+<wire x1="35.56" y1="2.54" x2="307.34" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="307.34" y1="2.54" x2="388.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="388.62" y1="2.54" x2="388.62" y2="17.78" width="0.1524" layer="94"/>
+<wire x1="388.62" y1="17.78" x2="388.62" y2="30.48" width="0.1524" layer="94"/>
+<wire x1="388.62" y1="30.48" x2="388.62" y2="45.72" width="0.1524" layer="94"/>
+<wire x1="388.62" y1="45.72" x2="388.62" y2="396.24" width="0.1524" layer="94"/>
+<wire x1="388.62" y1="396.24" x2="35.56" y2="396.24" width="0.1524" layer="94"/>
+<wire x1="35.56" y1="396.24" x2="35.56" y2="2.54" width="0.1524" layer="94"/>
+<text x="314.96" y="33.02" size="5.08" layer="94">SPI Switch Board</text>
+<text x="340.36" y="20.32" size="5.08" layer="94">rev1</text>
+<text x="322.58" y="5.08" size="5.08" layer="94">11/26/2013</text>
+<wire x1="388.62" y1="17.78" x2="307.34" y2="17.78" width="0.1524" layer="94"/>
+<wire x1="307.34" y1="2.54" x2="307.34" y2="17.78" width="0.1524" layer="94"/>
+<wire x1="307.34" y1="17.78" x2="307.34" y2="30.48" width="0.1524" layer="94"/>
+<wire x1="307.34" y1="30.48" x2="307.34" y2="45.72" width="0.1524" layer="94"/>
+<wire x1="307.34" y1="45.72" x2="388.62" y2="45.72" width="0.1524" layer="94"/>
+<wire x1="307.34" y1="30.48" x2="388.62" y2="30.48" width="0.1524" layer="94"/>
 <text x="241.3" y="388.62" size="1.778" layer="91">LED Driver Circuits</text>
 <text x="342.9" y="327.66" size="1.778" layer="91">Output Switch Connector</text>
 </plain>
