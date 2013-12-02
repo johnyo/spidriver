@@ -3403,6 +3403,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <junction x="185.42" y="154.94"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="101.6" x2="233.68" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="1_CS"/>
 </segment>
 </net>
 <net name="DATA_IN" class="0">
