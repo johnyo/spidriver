@@ -2963,17 +2963,17 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="LED9" library="SparkFun-LED" deviceset="LED" device="1206" value="YELLOW"/>
 <part name="P+19" library="supply1" deviceset="+5V" device=""/>
 <part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="2512" value="2k"/>
-<part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="2512" value="2k"/>
-<part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="2512" value="2k"/>
-<part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="2512" value="2k"/>
-<part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="2512" value="2k"/>
-<part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="2512" value="2k"/>
-<part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="2512" value="2k"/>
-<part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="2512" value="2k"/>
-<part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="2512" value="2k"/>
 <part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="330"/>
-<part name="C1" library="SparkFun-Passives" deviceset="CAP" device="0402-CAP"/>
-<part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0402-CAP"/>
+<part name="C1" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10uF"/>
+<part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10uF"/>
+<part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="1.5k"/>
+<part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="1.5k"/>
+<part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="1.5k"/>
+<part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="1.5k"/>
+<part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="1.5k"/>
+<part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="1.5k"/>
+<part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="1.5k"/>
+<part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="1.5k"/>
 </parts>
 <sheets>
 <sheet>
@@ -3069,6 +3069,9 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="LED9" gate="G$1" x="96.52" y="353.06"/>
 <instance part="P+19" gate="1" x="96.52" y="373.38"/>
 <instance part="R5" gate="G$1" x="81.28" y="363.22" rot="R90"/>
+<instance part="R14" gate="G$1" x="96.52" y="363.22" rot="R90"/>
+<instance part="C1" gate="G$1" x="81.28" y="302.26"/>
+<instance part="C5" gate="G$1" x="96.52" y="302.26"/>
 <instance part="R6" gate="G$1" x="208.28" y="325.12" rot="R90"/>
 <instance part="R7" gate="G$1" x="220.98" y="325.12" rot="R90"/>
 <instance part="R8" gate="G$1" x="233.68" y="325.12" rot="R90"/>
@@ -3077,9 +3080,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="R11" gate="G$1" x="271.78" y="325.12" rot="R90"/>
 <instance part="R12" gate="G$1" x="284.48" y="325.12" rot="R90"/>
 <instance part="R13" gate="G$1" x="299.72" y="325.12" rot="R90"/>
-<instance part="R14" gate="G$1" x="96.52" y="363.22" rot="R90"/>
-<instance part="C1" gate="G$1" x="81.28" y="302.26"/>
-<instance part="C5" gate="G$1" x="96.52" y="302.26"/>
 </instances>
 <busses>
 </busses>
@@ -3651,50 +3651,50 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <net name="N$1" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="A"/>
-<pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="208.28" y1="317.5" x2="208.28" y2="320.04" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="LED2" gate="G$1" pin="A"/>
 <wire x1="220.98" y1="320.04" x2="220.98" y2="317.5" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="LED3" gate="G$1" pin="A"/>
 <wire x1="233.68" y1="320.04" x2="233.68" y2="317.5" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="LED4" gate="G$1" pin="A"/>
 <wire x1="246.38" y1="320.04" x2="246.38" y2="317.5" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="1"/>
 <pinref part="LED5" gate="G$1" pin="A"/>
 <wire x1="259.08" y1="320.04" x2="259.08" y2="317.5" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="1"/>
 <pinref part="LED6" gate="G$1" pin="A"/>
 <wire x1="271.78" y1="320.04" x2="271.78" y2="317.5" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="1"/>
 <pinref part="LED7" gate="G$1" pin="A"/>
 <wire x1="284.48" y1="320.04" x2="284.48" y2="317.5" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
