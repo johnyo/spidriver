@@ -2932,8 +2932,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10uF"/>
-<part name="C6" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10uF"/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
@@ -2974,6 +2972,8 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="2512" value="2k"/>
 <part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="2512" value="2k"/>
 <part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="330"/>
+<part name="C1" library="SparkFun-Passives" deviceset="CAP" device="0402-CAP"/>
+<part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0402-CAP"/>
 </parts>
 <sheets>
 <sheet>
@@ -3038,8 +3038,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="GND6" gate="1" x="238.76" y="137.16"/>
 <instance part="P+6" gate="1" x="231.14" y="182.88"/>
 <instance part="GND7" gate="1" x="340.36" y="137.16"/>
-<instance part="C5" gate="G$1" x="81.28" y="302.26"/>
-<instance part="C6" gate="G$1" x="96.52" y="302.26"/>
 <instance part="P+7" gate="1" x="81.28" y="312.42"/>
 <instance part="P+8" gate="1" x="96.52" y="312.42"/>
 <instance part="GND8" gate="1" x="81.28" y="294.64"/>
@@ -3080,6 +3078,8 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="R12" gate="G$1" x="284.48" y="325.12" rot="R90"/>
 <instance part="R13" gate="G$1" x="299.72" y="325.12" rot="R90"/>
 <instance part="R14" gate="G$1" x="96.52" y="363.22" rot="R90"/>
+<instance part="C1" gate="G$1" x="81.28" y="302.26"/>
+<instance part="C5" gate="G$1" x="96.52" y="302.26"/>
 </instances>
 <busses>
 </busses>
@@ -3188,14 +3188,14 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="299.72" x2="81.28" y2="297.18" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="299.72" x2="96.52" y2="297.18" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="350.52" y1="271.78" x2="347.98" y2="271.78" width="0.1524" layer="91"/>
@@ -3343,14 +3343,14 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="P+6" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="307.34" x2="81.28" y2="309.88" width="0.1524" layer="91"/>
 <pinref part="P+7" gate="1" pin="+5V"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="307.34" x2="96.52" y2="309.88" width="0.1524" layer="91"/>
 <pinref part="P+8" gate="1" pin="+5V"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="96.52" y1="368.3" x2="96.52" y2="370.84" width="0.1524" layer="91"/>
