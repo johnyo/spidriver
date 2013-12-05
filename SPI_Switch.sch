@@ -3327,13 +3327,13 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="J5" gate="G$1" pin="3"/>
-<pinref part="J4" gate="G$1" pin="3"/>
-<wire x1="63.5" y1="43.18" x2="91.44" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="43.18" x2="99.06" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="43.18" x2="91.44" y2="40.64" width="0.1524" layer="91"/>
-<junction x="91.44" y="43.18"/>
 <pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="J5" gate="G$1" pin="3"/>
+<wire x1="63.5" y1="43.18" x2="91.44" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="3"/>
+<wire x1="91.44" y1="43.18" x2="99.06" y2="43.18" width="0.1524" layer="91"/>
+<junction x="91.44" y="43.18"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
