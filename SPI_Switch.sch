@@ -229,34 +229,17 @@
 </package>
 <package name="8516-4500PL">
 <description>8516-4500PL Polarized Boardmount Socket</description>
-<pad name="P$1" x="0" y="0" drill="1.016" shape="square"/>
-<pad name="P$2" x="0" y="2.54" drill="1.016" shape="square"/>
-<pad name="P$3" x="2.54" y="0" drill="1.016" shape="square"/>
-<pad name="P$4" x="2.54" y="2.54" drill="1.016" shape="square"/>
-<pad name="P$5" x="5.08" y="0" drill="1.016" shape="square"/>
-<pad name="P$6" x="5.08" y="2.54" drill="1.016" shape="square"/>
-<pad name="P$7" x="7.62" y="0" drill="1.016" shape="square"/>
-<pad name="P$8" x="7.62" y="2.54" drill="1.016" shape="square"/>
-<pad name="P$9" x="10.16" y="0" drill="1.016" shape="square"/>
-<pad name="P$10" x="10.16" y="2.54" drill="1.016" shape="square"/>
-<pad name="P$11" x="12.7" y="0" drill="1.016" shape="square"/>
-<pad name="P$12" x="12.7" y="2.54" drill="1.016" shape="square"/>
-<pad name="P$13" x="15.24" y="0" drill="1.016" shape="square"/>
-<pad name="P$14" x="15.24" y="2.54" drill="1.016" shape="square"/>
-<pad name="P$15" x="17.78" y="0" drill="1.016" shape="square"/>
-<pad name="P$16" x="17.78" y="2.54" drill="1.016" shape="square"/>
 <wire x1="-3.81" y1="4.318" x2="-3.81" y2="-2.032" width="0.127" layer="25"/>
 <wire x1="21.59" y1="-2.032" x2="21.59" y2="4.318" width="0.127" layer="25"/>
-<wire x1="21.59" y1="4.318" x2="-3.81" y2="4.318" width="0.127" layer="25"/>
 <wire x1="-3.81" y1="-2.032" x2="6.858" y2="-2.032" width="0.127" layer="25"/>
 <wire x1="6.858" y1="-2.032" x2="6.858" y2="-2.286" width="0.127" layer="25"/>
 <wire x1="6.858" y1="-2.286" x2="10.922" y2="-2.286" width="0.127" layer="25"/>
 <wire x1="10.922" y1="-2.286" x2="10.922" y2="-2.032" width="0.127" layer="25"/>
 <wire x1="10.922" y1="-2.032" x2="21.59" y2="-2.032" width="0.127" layer="25"/>
-<text x="-2.032" y="-0.508" size="1.016" layer="25">1</text>
-<text x="-2.032" y="2.032" size="1.016" layer="25">2</text>
-<text x="19.05" y="-0.508" size="1.016" layer="25">15</text>
-<text x="19.05" y="2.032" size="1.016" layer="25">16</text>
+<text x="19.304" y="-0.508" size="1.016" layer="25">1</text>
+<text x="19.304" y="2.032" size="1.016" layer="25">2</text>
+<text x="-2.794" y="-0.508" size="1.016" layer="25">15</text>
+<text x="-2.794" y="2.286" size="1.016" layer="25">16</text>
 <wire x1="-3.81" y1="-2.032" x2="-3.81" y2="4.318" width="0.127" layer="26"/>
 <wire x1="-3.81" y1="4.318" x2="21.59" y2="4.318" width="0.127" layer="26"/>
 <wire x1="21.59" y1="4.318" x2="21.59" y2="-2.032" width="0.127" layer="26"/>
@@ -265,11 +248,27 @@
 <wire x1="10.922" y1="-2.286" x2="6.858" y2="-2.286" width="0.127" layer="26"/>
 <wire x1="6.858" y1="-2.286" x2="6.858" y2="-2.032" width="0.127" layer="26"/>
 <wire x1="6.858" y1="-2.032" x2="-3.81" y2="-2.032" width="0.127" layer="26"/>
-<text x="-1.27" y="-0.508" size="1.016" layer="26" rot="MR0">1</text>
-<text x="-1.27" y="2.032" size="1.016" layer="26" rot="MR0">2</text>
-<text x="20.828" y="2.032" size="1.016" layer="26" rot="MR0">16</text>
-<text x="20.828" y="-0.508" size="1.016" layer="26" rot="MR0">15</text>
+<text x="20.066" y="-0.508" size="1.016" layer="26" rot="MR0">1</text>
+<text x="20.066" y="2.032" size="1.016" layer="26" rot="MR0">2</text>
+<text x="-1.27" y="2.286" size="1.016" layer="26" rot="MR0">16</text>
+<text x="-1.27" y="-0.508" size="1.016" layer="26" rot="MR0">15</text>
 <text x="-4.318" y="-0.508" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<pad name="P$1" x="17.78" y="0" drill="1.0032"/>
+<pad name="P$2" x="17.78" y="2.54" drill="1.0032"/>
+<pad name="P$3" x="15.24" y="0" drill="1.0032"/>
+<pad name="P$4" x="15.24" y="2.54" drill="1.0032"/>
+<pad name="P$5" x="12.7" y="0" drill="1.0032"/>
+<pad name="P$6" x="12.7" y="2.54" drill="1.0032"/>
+<pad name="P$7" x="10.16" y="0" drill="1.0032"/>
+<pad name="P$8" x="10.16" y="2.54" drill="1.0032"/>
+<pad name="P$9" x="7.62" y="0" drill="1.0032"/>
+<pad name="P$10" x="7.62" y="2.54" drill="1.0032"/>
+<pad name="P$11" x="5.08" y="0" drill="1.0032"/>
+<pad name="P$12" x="5.08" y="2.54" drill="1.0032"/>
+<pad name="P$13" x="2.54" y="0" drill="1.0032"/>
+<pad name="P$14" x="2.54" y="2.54" drill="1.0032"/>
+<pad name="P$15" x="0" y="0" drill="1.0032"/>
+<pad name="P$16" x="0" y="2.54" drill="1.0032"/>
 </package>
 </packages>
 <symbols>
@@ -2892,6 +2891,239 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </deviceset>
 </devicesets>
 </library>
+<library name="holes">
+<description>&lt;b&gt;Mounting Holes and Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="2,8">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.8 mm with drill center</description>
+<wire x1="-1.778" y1="0" x2="0" y2="-1.778" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="1.778" x2="1.778" y2="0" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="2.921" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="42"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="1.5" width="0.2032" layer="21"/>
+<hole x="0" y="0" drill="2.8"/>
+</package>
+<package name="3,0">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.0 mm with drill center</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="42"/>
+<circle x="0" y="0" radius="1.6" width="0.2032" layer="21"/>
+<text x="-1.27" y="-3.81" size="1.27" layer="48">3,0</text>
+<hole x="0" y="0" drill="3"/>
+</package>
+<package name="3,3">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.3 mm with drill center</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.048" width="2.54" layer="39"/>
+<circle x="0" y="0" radius="3.048" width="2.54" layer="40"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="42"/>
+<circle x="0" y="0" radius="1.75" width="0.2032" layer="21"/>
+<hole x="0" y="0" drill="3.3"/>
+</package>
+<package name="3,6">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.6 mm with drill center</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.048" width="2.7686" layer="39"/>
+<circle x="0" y="0" radius="3.048" width="2.7686" layer="40"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="42"/>
+<circle x="0" y="0" radius="1.9" width="0.2032" layer="21"/>
+<hole x="0" y="0" drill="3.6"/>
+</package>
+<package name="4,1">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 4.1 mm with drill center</description>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="39"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="40"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="41"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="42"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="43"/>
+<circle x="0" y="0" radius="2.15" width="0.1524" layer="21"/>
+<hole x="0" y="0" drill="4.1"/>
+</package>
+<package name="4,5">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 4.5 mm with drill center</description>
+<wire x1="4.445" y1="0" x2="2.159" y2="0" width="0.0508" layer="21"/>
+<wire x1="0" y1="4.445" x2="0" y2="2.159" width="0.0508" layer="21"/>
+<wire x1="-2.159" y1="0" x2="-4.445" y2="0" width="0.0508" layer="21"/>
+<wire x1="0" y1="-2.159" x2="0" y2="-4.445" width="0.0508" layer="21"/>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="39"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="40"/>
+<circle x="0" y="0" radius="3.8184" width="2.54" layer="41"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="42"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="43"/>
+<circle x="0" y="0" radius="2.35" width="0.1524" layer="21"/>
+<text x="-1.27" y="-4.445" size="1.27" layer="48">4,5</text>
+<hole x="0" y="0" drill="4.5"/>
+</package>
+<package name="5,0">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 5.0 mm with drill center</description>
+<wire x1="4.445" y1="0" x2="2.159" y2="0" width="0.0508" layer="21"/>
+<wire x1="0" y1="4.445" x2="0" y2="2.159" width="0.0508" layer="21"/>
+<wire x1="-2.159" y1="0" x2="-4.445" y2="0" width="0.0508" layer="21"/>
+<wire x1="0" y1="-2.159" x2="0" y2="-4.445" width="0.0508" layer="21"/>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="39"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="40"/>
+<circle x="0" y="0" radius="4.826" width="2.54" layer="43"/>
+<circle x="0" y="0" radius="4.826" width="2.54" layer="42"/>
+<circle x="0" y="0" radius="4.826" width="2.54" layer="41"/>
+<circle x="0" y="0" radius="2.6" width="0.1524" layer="21"/>
+<text x="-1.27" y="-4.445" size="1.27" layer="48">5,0</text>
+<hole x="0" y="0" drill="5"/>
+</package>
+<package name="3,2">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.2 mm with drill center</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="42"/>
+<circle x="0" y="0" radius="1.7" width="0.2032" layer="21"/>
+<hole x="0" y="0" drill="3.2"/>
+</package>
+<package name="4,3">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 4.3 mm with drill center</description>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="39"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="40"/>
+<circle x="0" y="0" radius="3.8184" width="2.54" layer="41"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="42"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="43"/>
+<circle x="0" y="0" radius="2.25" width="0.1524" layer="21"/>
+<hole x="0" y="0" drill="4.3"/>
+</package>
+<package name="5,5">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 5.5 mm with drill center</description>
+<wire x1="4.445" y1="0" x2="2.159" y2="0" width="0.0508" layer="21"/>
+<wire x1="0" y1="4.445" x2="0" y2="2.159" width="0.0508" layer="21"/>
+<wire x1="-2.159" y1="0" x2="-4.445" y2="0" width="0.0508" layer="21"/>
+<wire x1="0" y1="-2.159" x2="0" y2="-4.445" width="0.0508" layer="21"/>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="39"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="40"/>
+<circle x="0" y="0" radius="4.826" width="2.54" layer="43"/>
+<circle x="0" y="0" radius="4.826" width="2.54" layer="42"/>
+<circle x="0" y="0" radius="4.826" width="2.54" layer="41"/>
+<circle x="0" y="0" radius="2.85" width="0.1524" layer="21"/>
+<hole x="0" y="0" drill="5.5"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MOUNT-HOLE">
+<wire x1="0" y1="1.27" x2="1.27" y2="0" width="1.524" layer="94" curve="-90" cap="flat"/>
+<wire x1="-1.27" y1="0" x2="0" y2="-1.27" width="1.524" layer="94" curve="90" cap="flat"/>
+<wire x1="-0.508" y1="0" x2="0.508" y2="0" width="0.0508" layer="94"/>
+<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.0508" layer="94"/>
+<circle x="0" y="0" radius="2.032" width="0.0508" layer="94"/>
+<circle x="0" y="0" radius="0.508" width="0.0508" layer="94"/>
+<text x="2.032" y="0.5842" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.032" y="-2.4638" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MOUNT-HOLE" prefix="H">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; with drill center marker</description>
+<gates>
+<gate name="G$1" symbol="MOUNT-HOLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="2.8" package="2,8">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.0" package="3,0">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.3" package="3,3">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.6" package="3,6">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="4.1" package="4,1">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="4.5" package="4,5">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5.0" package="5,0">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.2" package="3,2">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="4.3" package="4,3">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5.5" package="5,5">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2947,7 +3179,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="P+16" library="supply1" deviceset="+24V" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="P+17" library="supply1" deviceset="+24V" device=""/>
-<part name="J1" library="SPI_Switch" deviceset="8516-4500PL" device=""/>
 <part name="C7" library="SparkFun-Passives" deviceset="CAP_POL" device="E" value="220uF"/>
 <part name="P+18" library="supply1" deviceset="+24V" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
@@ -2974,6 +3205,11 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="1.5k"/>
 <part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="1.5k"/>
 <part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="1.5k"/>
+<part name="J1" library="SPI_Switch" deviceset="8516-4500PL" device=""/>
+<part name="H1" library="holes" deviceset="MOUNT-HOLE" device="2.8"/>
+<part name="H2" library="holes" deviceset="MOUNT-HOLE" device="2.8"/>
+<part name="H3" library="holes" deviceset="MOUNT-HOLE" device="2.8"/>
+<part name="H4" library="holes" deviceset="MOUNT-HOLE" device="2.8"/>
 </parts>
 <sheets>
 <sheet>
@@ -3006,6 +3242,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <text x="236.22" y="342.9" size="1.778" layer="91">LED Driver Circuits</text>
 <text x="342.9" y="327.66" size="1.778" layer="91">Output Switch Connector</text>
 <text x="73.66" y="381" size="1.778" layer="91">Power Indication LEDs</text>
+<text x="53.34" y="251.46" size="1.778" layer="91">Mounting Holes</text>
 </plain>
 <instances>
 <instance part="J3" gate="G$1" x="68.58" y="142.24" rot="MR0"/>
@@ -3053,7 +3290,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="P+16" gate="1" x="284.48" y="335.28"/>
 <instance part="GND12" gate="1" x="124.46" y="274.32"/>
 <instance part="P+17" gate="1" x="299.72" y="335.28"/>
-<instance part="J1" gate="G$1" x="355.6" y="266.7"/>
 <instance part="C7" gate="G$1" x="147.32" y="48.26"/>
 <instance part="P+18" gate="1" x="81.28" y="373.38"/>
 <instance part="GND10" gate="1" x="81.28" y="340.36"/>
@@ -3080,6 +3316,11 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="R11" gate="G$1" x="271.78" y="325.12" rot="R90"/>
 <instance part="R12" gate="G$1" x="284.48" y="325.12" rot="R90"/>
 <instance part="R13" gate="G$1" x="299.72" y="325.12" rot="R90"/>
+<instance part="J1" gate="G$1" x="355.6" y="266.7"/>
+<instance part="H1" gate="G$1" x="58.42" y="238.76"/>
+<instance part="H2" gate="G$1" x="58.42" y="233.68"/>
+<instance part="H3" gate="G$1" x="58.42" y="228.6"/>
+<instance part="H4" gate="G$1" x="58.42" y="223.52"/>
 </instances>
 <busses>
 </busses>
@@ -3540,10 +3781,10 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="208.28" y1="297.18" x2="342.9" y2="297.18" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="297.18" x2="342.9" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="302.26" x2="350.52" y2="302.26" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="3_PATH1"/>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="208.28" y1="309.88" x2="208.28" y2="297.18" width="0.1524" layer="91"/>
 <junction x="208.28" y="297.18"/>
+<pinref part="J1" gate="G$1" pin="3_PATH1"/>
 </segment>
 </net>
 <net name="CH2" class="0">
@@ -3555,10 +3796,10 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="345.44" y1="297.18" x2="350.52" y2="297.18" width="0.1524" layer="91"/>
 <label x="187.96" y="294.64" size="1.778" layer="95"/>
 <label x="325.12" y="294.64" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="5_PATH2"/>
 <pinref part="LED2" gate="G$1" pin="C"/>
 <wire x1="220.98" y1="309.88" x2="220.98" y2="294.64" width="0.1524" layer="91"/>
 <junction x="220.98" y="294.64"/>
+<pinref part="J1" gate="G$1" pin="5_PATH2"/>
 </segment>
 </net>
 <net name="CH3" class="0">
@@ -3567,11 +3808,11 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="180.34" y1="292.1" x2="233.68" y2="292.1" width="0.1524" layer="91"/>
 <label x="187.96" y="292.1" size="1.778" layer="95"/>
 <label x="325.12" y="292.1" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="7_PATH3"/>
 <pinref part="LED3" gate="G$1" pin="C"/>
 <wire x1="233.68" y1="292.1" x2="350.52" y2="292.1" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="309.88" x2="233.68" y2="292.1" width="0.1524" layer="91"/>
 <junction x="233.68" y="292.1"/>
+<pinref part="J1" gate="G$1" pin="7_PATH3"/>
 </segment>
 </net>
 <net name="CH4" class="0">
@@ -3583,10 +3824,10 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="246.38" y1="289.56" x2="345.44" y2="289.56" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="289.56" x2="345.44" y2="287.02" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="287.02" x2="350.52" y2="287.02" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="9_PATH4"/>
 <pinref part="LED4" gate="G$1" pin="C"/>
 <wire x1="246.38" y1="309.88" x2="246.38" y2="289.56" width="0.1524" layer="91"/>
 <junction x="246.38" y="289.56"/>
+<pinref part="J1" gate="G$1" pin="9_PATH4"/>
 </segment>
 </net>
 <net name="CH5" class="0">
@@ -3598,10 +3839,10 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="259.08" y1="287.02" x2="342.9" y2="287.02" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="287.02" x2="342.9" y2="281.94" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="281.94" x2="350.52" y2="281.94" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="11_PATH5"/>
 <pinref part="LED5" gate="G$1" pin="C"/>
 <wire x1="259.08" y1="309.88" x2="259.08" y2="287.02" width="0.1524" layer="91"/>
 <junction x="259.08" y="287.02"/>
+<pinref part="J1" gate="G$1" pin="11_PATH5"/>
 </segment>
 </net>
 <net name="CH6" class="0">
@@ -3613,10 +3854,10 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="271.78" y1="284.48" x2="340.36" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="284.48" x2="340.36" y2="276.86" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="276.86" x2="350.52" y2="276.86" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="13_PATH6"/>
 <pinref part="LED6" gate="G$1" pin="C"/>
 <wire x1="271.78" y1="309.88" x2="271.78" y2="284.48" width="0.1524" layer="91"/>
 <junction x="271.78" y="284.48"/>
+<pinref part="J1" gate="G$1" pin="13_PATH6"/>
 </segment>
 </net>
 <net name="CH7" class="0">
@@ -3628,10 +3869,10 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="335.28" y1="269.24" x2="350.52" y2="269.24" width="0.1524" layer="91"/>
 <label x="187.96" y="281.94" size="1.778" layer="95"/>
 <label x="325.12" y="281.94" size="1.778" layer="95"/>
-<pinref part="J1" gate="G$1" pin="16_OPENALL"/>
 <pinref part="LED7" gate="G$1" pin="C"/>
 <wire x1="284.48" y1="309.88" x2="284.48" y2="281.94" width="0.1524" layer="91"/>
 <junction x="284.48" y="281.94"/>
+<pinref part="J1" gate="G$1" pin="16_OPENALL"/>
 </segment>
 </net>
 <net name="N$2" class="0">
