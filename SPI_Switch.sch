@@ -3193,7 +3193,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="LED8" library="SparkFun-LED" deviceset="LED" device="1206" value="YELLOW"/>
 <part name="LED9" library="SparkFun-LED" deviceset="LED" device="1206" value="YELLOW"/>
 <part name="P+19" library="supply1" deviceset="+5V" device=""/>
-<part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="2512" value="2k"/>
 <part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="330"/>
 <part name="C1" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10uF"/>
 <part name="C5" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10uF"/>
@@ -3210,6 +3209,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="H2" library="holes" deviceset="MOUNT-HOLE" device="2.8"/>
 <part name="H3" library="holes" deviceset="MOUNT-HOLE" device="2.8"/>
 <part name="H4" library="holes" deviceset="MOUNT-HOLE" device="2.8"/>
+<part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="1.5k"/>
 </parts>
 <sheets>
 <sheet>
@@ -3304,7 +3304,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="LED8" gate="G$1" x="81.28" y="353.06"/>
 <instance part="LED9" gate="G$1" x="96.52" y="353.06"/>
 <instance part="P+19" gate="1" x="96.52" y="373.38"/>
-<instance part="R5" gate="G$1" x="81.28" y="363.22" rot="R90"/>
 <instance part="R14" gate="G$1" x="96.52" y="363.22" rot="R90"/>
 <instance part="C1" gate="G$1" x="81.28" y="302.26"/>
 <instance part="C5" gate="G$1" x="96.52" y="302.26"/>
@@ -3321,6 +3320,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="H2" gate="G$1" x="58.42" y="233.68"/>
 <instance part="H3" gate="G$1" x="58.42" y="228.6"/>
 <instance part="H4" gate="G$1" x="58.42" y="223.52"/>
+<instance part="R5" gate="G$1" x="81.28" y="363.22" rot="R90"/>
 </instances>
 <busses>
 </busses>
